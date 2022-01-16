@@ -5,11 +5,14 @@ Designed and coded a password manager in Python with Arduino integration. The Pr
 
 
 Introduction
+
+
 The Password Manager, creates and stores a master user profile, where an Arduino is used as part of a Two-Factor Authentication method, using Arduino inputs and outputs as part of the process. It stores the data for accounts by their names, where it stores the account name, username/e-mail, and password. This can be used whenever you need to store a password you want to remember on your device.
 
 
 
 Final Design
+
 
 The details of design for the different components are described within the notes about their implementation. As a part of the overall design 4 functions were designed:
 
@@ -24,6 +27,7 @@ The details of design for the different components are described within the note
 
 
 Implementation
+
 
 Imported engi1020.ardunio, random, sleep, pickle and sqlite3 modules.
 
